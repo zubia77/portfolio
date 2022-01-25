@@ -514,7 +514,6 @@ h4 {
   width: 500px;
   position: absolute;
   top: -800px;
-  right: 0;
 
   border: 5px solid black;
   border-radius: 3%;
@@ -525,9 +524,14 @@ h4 {
   box-shadow: 1px 1px 20px, -1px -1px 20px;
   visibility: hidden;
 }
-.contact:active .contactform {
+.contact:hover .contactform {
   visibility: visible;
 }
+
+.contactform:hover {
+  visibility: visible;
+}
+
 form {
   display: flex;
   flex-direction: column;
