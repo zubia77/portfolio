@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Kontaktformular</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Happy+Monkey&display=swap");
+      @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+      </style>
+</head>
+<body>
+    <div class="contactform">
+        <form action="https://formspree.io/f/xnqwjdzg">
+            
+              <legend class="title">Ihr Weg zu mir</legend>
+              <label class="name" for="name">Ihr Name</label>
+              <input type="text" name="name" id="name" placeholder="Vorname, Nachname">
+              
+              <div class="geschlecht">
+                <div class="w">
+                    <input class="radio" type="radio" name="sex" id="weiblich" value="weiblich" checked>
+                    <label for="weiblich">weiblich</label> 
+                </div>
+
+                <div class="mä">
+                    <input class="radio" type="radio" name="sex" id="männlich" value="männlich">
+                    <label for="männlich">männlich</label>
+                </div>
+                
+                <div class="d">
+                    <input class="radio" type="radio" name="sex" id="diverse" value="diverse">
+                    <label for="diverse">Diverse</label>
+                </div>
+            </div>
+            
+              <label for="telephone">Ihre Rufnummer</label>
+              <input type="number" name="telephone" id="telephone" placeholder="Vorwahl / Telefonnummer">
+              <label for="email">Ihre Emailadresse</label>
+              <input type="email" name="email" id="email" placeholder="example@email.com">
+              <legend class="nachricht">Ihre Nachricht:</legend>
+              <label for="subject">Betreff</label>
+              <input type="text" name="subject" id="subject" placeholder="Thema">
+              <label for="message">Mitteilung eingeben:</label>
+              <textarea name="message" id="message" cols="25" rows="10"></textarea>
+              
+              <div class="button">
+              <button type="reset">Zurücksetzen</button>
+              <button type="submit">Senden</button>
+              </div>
+          </form>
+    </div>
+</body>
+</html>

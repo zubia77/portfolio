@@ -1,0 +1,91 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    background-color: #133B5C;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Happy Monkey, sans-serif;
+}
+
+.contactform{
+    width: 30%;
+    border: 5px solid black;
+    border-radius: 3%;
+    background: rgba(102, 101, 101, 0.25);
+    backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba(252, 250, 250, 0.18);
+    box-shadow: 1px 1px 20px, -1px -1px 20px ;
+}
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #A2CDCD;
+    font-weight: bold;
+}
+
+label {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: #A2CDCD;
+    font-size: 1.2rem;
+}
+
+.geschlecht {
+    display: flex;
+}
+
+.w, .m, .d {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.m, .d{
+    margin-left: 30px;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    border-bottom: #A2CDCD 2px solid;
+    padding: 10px;
+    color: #A2CDCD;
+    font-size: 1rem;
+}
+
+textarea {
+    border: 2px #A2CDCD solid;
+    background-color: transparent;
+    color: #A2CDCD;
+    font-size: 1rem;
+}
+
+input::placeholder {
+    color: #adc4c4;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.nachricht {
+    color: #A2CDCD;
+    font-size: 1.4rem;
+
+    padding-top: 30px;
+}
+
+.button {
+    border: 2px solid #A2CDCD;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #A2CDCD;
+    font-family: Happy Monkey, sans-serif;
+    font-size: 1.5rem;
+    margin: 30px; 
+}

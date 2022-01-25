@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+:root{
+    font-size: 62.5%;
+    background-color: #133B5C;
+    --dark:#133B5C;
+    --light:#FFEFEF;
+    --middle: #A2CDCD;
+    --toodark:#0e1e2b;
+    --gap: 2rem;
+    font-family: Poiret One, sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+    height: 100vh;
+}
+
+
+                                /* Header Settings */
+header{
+    width: 100%;
+    background-color: var(--dark);
+    color: var(--middle);
+    height: 20vh;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    right: 50px;
+    bottom: 80px;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+ }
+ 
+ nav ul{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     list-style: none;
+     font-size: 3rem;
+ }
+ 
+ nav a{
+     border-radius: 20px;
+     background: #133B5C;
+     box-shadow:
+             inset -9px 9px 18px rgb(8, 24, 38, 0),
+             inset 9px -9px 18px rgb(30, 95, 148, 0),
+             -9px 9px 38px rgb(8, 24, 37, 1),
+              9px -9px 38px rgb(30, 94, 147, 1);
+     transition: all .5s ease;
+     padding: 3rem;
+     text-decoration: none;
+     font-family: Happy Monkey;
+     color: var(--middle);
+ }
+ 
+ nav a:hover{
+     box-shadow:
+             inset -19px 19px 38px rgb(8, 24, 38, 1),
+             inset 19px -19px 38px rgb(30, 95, 148, 1),
+             -19px 19px 38px rgb(8, 24, 37, 0),
+              19px -19px 38px rgb(30, 94, 147, 0);
+     font-weight: bold;
+ }
+ 
+ nav a:active{
+     color: rgb(190, 10, 100);
+ }
+ nav a:visited{
+     color: var(--middle);
+     text-decoration: none;
+ }
+
+ main{
+    width: 100%;
+   height: 70vh;
+   color: var(--toodark);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    padding-left: 20px;
+   /* background-color: var(--middle); */
+
+}
+img {
+    width: 250px;
+    height: 250px;
+    border: #A2CDCD 5px solid;
+    
+}
+
+
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: var(--dark);
+    color: var(--middle);
+    text-decoration: none;
+    font-size: 5rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fab, .far, .fas, .cm{
+    color: var(--middle);
+    transition: 1s;
+    
+    
+}
+
+.fab{
+    border: 3px solid var(--middle);
+    border-radius: 100%;
+    padding: 10px;
+    justify-content:flex-start space-around;
+}
+
+.fab:active{
+    color: var(--middle);
+}
+
+.fab:visited{
+    color: var(--middle);
+}
+
+.far{
+    justify-content: flex-end;
+    border: 3px solid var(--middle);
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.fas{
+    border: 3px solid var(--middle);
+    border-radius: 100%;
+    padding: 10px;
+}
+/* allgemeine Settings end */
+
+/* socialmedia settings start */
+.socialmedia{
+    display: flex;
+
+
+}
+
+/* facebook settings start */
+.fa-facebook-f{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.fa-facebook-f:hover{
+    color: #4c66b6 ;
+    background-color: white;
+}
+/* facebook settings end */
+
+/* insta settings start */
+
+.instagram{
+    width: 80px;
+    height: 80px;
+}
+
+.insta-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 2px
+}
+
+.front{
+    opacity: 1;
+}
+
+.fa-instagram{
+    width: 92%;
+}
+
+.back{
+    opacity: 0;
+}
+
+.insta{
+    width:72px;
+    height: 75px;
+    border: var(--middle) 3px solid;
+    border-radius: 100%;
+    padding:10px;
+}
+
+.instagram:hover .front{
+    opacity: 0;
+}
+
+.instagram:hover .back{
+    opacity: 1;
+}
+/* insta settings end */
+
+/* twitter settings start */
+
+.fa-twitter{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -5px;
+}
+
+.fa-twitter:hover{
+    color: #1c96e9 ;
+    background-color: white;
+}
+/* twitter settings end */
+
+/* linked-in settings start */
+.fa-linkedin-in{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.fa-linkedin-in:hover{
+    color: #0073b1 ;
+    background-color: white;
+}
+/* linked-in settings end */
+
+/* whatsapp setting start */
+.fa-whatsapp{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.fa-whatsapp:hover{
+    color: #4ac658 ;
+    background-color: white;
+}
+/* whatsapp settings end */
+
+/* github settings start */
+.fa-github{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fa-github:hover{
+    color: black ;
+    background-color: white;
+}
+/* github settings end */
+
+/* soceialmedia settings end */
+
+
+
+   
+/* media settings start */
+
+.media{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:10px;
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+.fa-envelope:hover{
+    background-color: var(--middle);
+    color: var(--dark);
+    -webkit-animation: swing .5s ease;
+        animation: swing .5s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+.fa-phone-alt:hover{
+    background-color: var(--middle);
+    color: var(--dark);
+    -webkit-animation: swing .5s ease;
+        animation: swing .5s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+
+}
+.fa-at:hover{
+    background-color: var(--middle);
+    color: var(--dark);
+    -webkit-animation: swing .5s ease;
+        animation: swing .5s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
