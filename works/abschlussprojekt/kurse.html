@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="crotchet">
+
+    <title>Kurse</title>
+
+    <link rel="stylesheet" href="kurse.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Indie+Flower&display=swap');
+
+        html {scroll-behavior: smooth;}
+        body {margin: 0}
+
+        [name="logo-facebook"] {color: rgb(15, 32, 65);}
+        [name="logo-instagram"] {color: rgb(15, 32, 65);}
+        [name="logo-pinterest"] {color: rgb(15, 32, 65);}
+        [name="mail-outline"] {color: rgb(15, 32, 65); padding-inline-end:0px;}
+        
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>It's Crochet o'clock ... 
+            <img src="images/logo8.png" alt="logo"
+            align="right"
+            width="92">
+        </h1>   
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="meine-projekte.html">Meine Projekte</a>
+        <a href="inspirationen.html">Inspirationen</a>  
+        <a href="#">Kurse</a>
+        <a href="ueber-mich.html">Über mich</a>
+    </nav>
+    <main>
+        <h2>Ich hoffe, ich konnte euer Interesse erwecken und sehe euch in einem meiner Kurse.
+        Meldet euch für einen Schnupperkurs an und vergisst nicht den Newsletter zu bestellen, um auf dem neuesten Stand zu bleiben.
+        </h2>
+
+
+    <div class="anmeldung">
+    <form class="formular">
+        <label>Vorname:</label>
+        <input type="text" name="vorname" required> 
+
+        <br> <br>
+
+        <label>Nachname:</label>
+        <input type="text" name="nachname" required>
+       
+        <br><br>        
+      
+        <input type="radio" name="gender" value="male" checked>
+        <label>männlich</label> <br>
+        <input type="radio" name="gender" value="female">
+        <label>weiblich</label>
+       
+        <br><br>
+
+        <label>Geburtsdatum:</label>
+        <input type="date" name="datum" required> 
+       
+        <br> <br>
+
+        <label>Straße und Hausnummer:</label>
+        <input type="text" name="adress" required>
+
+        <br> <br>
+
+        <label>Plz:</label>
+        <input type="number" name="citycode" required>
+
+        <br> <br>
+
+        <label>Wohnort:</label>
+        <input type="text" name="city" required>
+
+        <br> <br>
+
+        <label>Telefonnummer für Rückfragen:</label>
+        <input type="tel" name="phonnumbre">
+       
+        <br><br>
+       
+        <label>Kurswahl:</label>
+        <select name="Kurs" size="1">
+      
+        <option value="kinder">Anfängerkurs für Kinder</option>
+        <option value="anfaenger">Anfängerkurs für Erwachsene</option>
+        <option value="fortgeschrittene">Fortgeschrittenenkurs für Erwachsene</option>
+        </select> 
+       
+        <br><br>
+       
+        <label>Emailadresse:</label>
+        <input type="email" name="email" placeholder="mustermann@email.com" required> 
+       
+        <br> <br>
+
+        <label>Ihre Nachricht:</label>
+        <input type="textarea" name="textarea" placeholder="Ihre Nachricht"> 
+        
+        <br> <br>
+
+        <label>Newsletter-Anmeldung</label>
+        <input type="checkbox" name="newsletter" checked> 
+
+        <br> <br>
+  
+        <input type="reset" name="reset" placeholder="zurücksetzen"> 
+
+        <input type="submit" value="Senden">    
+    </form>
+   
+
+    <p class="adresse">Meine Kurse findet ihr an folgender Adresse: <br>Zubi<br>Volkshochschule Duisburg<br>Arndtstraße 5<br>47226 Duisburg</p>
+
+    <div class="googlemap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.942964105104!2d6.706187215766197!3d51.40410267961833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8b94b6e3b59ff%3A0xa505fea9f184e35f!2sVolkshochschule%20Duisburg!5e0!3m2!1sde!2sde!4v1631775460204!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="#" loading="lazy">googlemap
+        </iframe> 
+    </div>
+    </div>
+
+    <footer>
+            <p> 
+                <a href="http://facebook.com" rel="noopener" target="_blank">
+                <ion-icon name="logo-facebook" ></ion-icon></a>
+                <a href="http://instagramm.com" rel="noopener" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="http://pinterest.com" rel="noopener" target="_blank"><ion-icon name="logo-pinterest"></ion-icon></a> 
+                <a href="mailto:rashzubia@gmail.com" rel="noopener" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
+            </p>
+        
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+    </script>
+    
+    </body>
+    </html>

@@ -31,55 +31,60 @@ header{
     position: relative;
 }
 
-nav{
+.logo {
+    width: 16rem;
+    margin-top: 20px;
+    margin-left: 150px;
+    opacity: 1;
+}
+
+nav {
     position: absolute;
     right: 50px;
     bottom: 80px;
     width: 70%;
     display: flex;
     justify-content: flex-end;
- }
- 
- nav ul{
-     display: flex;
-     justify-content: space-between;
-     width: 100%;
-     list-style: none;
-     font-size: 3rem;
- }
- 
- nav a{
-     border-radius: 20px;
-     background: #133B5C;
-     box-shadow:
-             inset -9px 9px 18px rgb(8, 24, 38, 0),
-             inset 9px -9px 18px rgb(30, 95, 148, 0),
-             -9px 9px 38px rgb(8, 24, 37, 1),
-              9px -9px 38px rgb(30, 94, 147, 1);
-     transition: all .5s ease;
-     padding: 3rem;
-     text-decoration: none;
-     font-family: Happy Monkey;
-     color: var(--middle);
- }
- 
- nav a:hover{
-     box-shadow:
-             inset -19px 19px 38px rgb(8, 24, 38, 1),
-             inset 19px -19px 38px rgb(30, 95, 148, 1),
-             -19px 19px 38px rgb(8, 24, 37, 0),
-              19px -19px 38px rgb(30, 94, 147, 0);
-     font-weight: bold;
- }
- 
- nav a:active{
-     color: rgb(190, 10, 100);
- }
- nav a:visited{
-     color: var(--middle);
-     text-decoration: none;
- }
+  }
 
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      list-style: none;
+      font-size: 3rem;
+    }
+
+    
+
+        nav a {
+          border-radius: 20px;
+          background: #133b5c;
+          box-shadow: inset -9px 9px 18px rgb(8, 24, 38, 0),
+            inset 9px -9px 18px rgb(30, 95, 148, 0), -9px 9px 38px rgb(8, 24, 37, 1),
+            9px -9px 38px rgb(30, 94, 147, 1);
+          transition: all 0.5s ease;
+          padding: 3rem;
+          text-decoration: none;
+          font-family: Happy Monkey;
+          color: var(--middle);
+        }
+
+        nav a:visited {
+          color: var(--middle);
+          text-decoration: none;
+        }
+
+        nav a:hover {
+          box-shadow: inset -19px 19px 38px rgb(8, 24, 38, 1),
+            inset 19px -19px 38px rgb(30, 95, 148, 1), -19px 19px 38px rgb(8, 24, 37, 0),
+            19px -19px 38px rgb(30, 94, 147, 0);
+          font-weight: bold;
+        }
+
+        nav a:active {
+          color: rgb(207, 39, 123);
+        }
 
  main{
      width: 100%;

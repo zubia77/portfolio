@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(15, 32, 65);
+}
+
+ion-icon {
+    font-size: 50px;
+    vertical-align: middle;
+    margin-right: 50px;
+    margin-left: 300px;
+}
+
+h1 {
+    background-color: rgb(120, 230, 230);
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 140px;
+    text-align: left;
+    text-indent: 10px;
+    margin-top: 0%;
+    font-family: 'Grand Hotel', cursive;
+    color: rgb(15, 32, 65);
+    font-size: 50px;
+    font-style: normal;
+} 
+
+nav {  
+    background-color: rgb(120, 230, 230);
+    text-align:center;
+    margin-top: 40px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(15, 32, 65);
+    font-family: 'Grand Hotel', cursive;
+    padding: 5px 20px;
+}
+
+nav a:hover {
+   font-weight: bolder;
+}
+
+h2 {letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 90px;
+    text-align: center;
+    padding-right: 250px;
+    padding-left: 100px; 
+    text-indent: 10px;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(129, 230, 230);
+    font-size: 45px;
+    font-style:oblique;
+}
+
+.erstesprojekt {display:flex;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.flexcontainer {display: inline-flex;
+    margin-left: 60px;margin-top: 50px;
+    margin-right: 60px;
+}
+
+.text {
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        line-height: 60px;
+        text-align: center;
+        padding-right: 250px;
+        padding-left: 100px; 
+        font-family: 'Indie Flower', cursive;
+        color: rgb(129, 230, 230);
+        font-size: 45px;
+        font-style:oblique;
+}
+
+.bildreihe {display: inline-flex;
+        margin-left: 60px;margin-top: 50px;
+        margin-right: 60px;
+}
+
+.geschenkidee {display: inline-flex;
+    margin-left: 60px;margin-top: 100px;
+    margin-right: 60px;
+}
+
+.kissen {display: inline-flex;
+    margin-left: 60px;margin-top: 110px;
+    margin-right: 60px;
+}
+
+footer {
+    background-color: rgb(120, 230, 230);
+    background-size: 300px;
+    text-align:left;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: rgb(15, 32, 65);
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+

@@ -31,7 +31,15 @@ header{
     position: relative;
 }
 
-nav{
+.logo {
+    width: 16rem;
+    margin-top: 20px;
+    margin-left: 150px;
+    opacity: 1;
+    border: none;
+}
+
+    nav{ 
     position: absolute;
     right: 50px;
     bottom: 80px;
@@ -40,7 +48,7 @@ nav{
     justify-content: flex-end;
  }
  
- nav ul{
+        nav ul{
      display: flex;
      justify-content: space-between;
      width: 100%;
@@ -48,7 +56,7 @@ nav{
      font-size: 3rem;
  }
  
- nav a{
+        nav a{
      border-radius: 20px;
      background: #133B5C;
      box-shadow:
@@ -63,22 +71,21 @@ nav{
      color: var(--middle);
  }
  
- nav a:hover{
-     box-shadow:
-             inset -19px 19px 38px rgb(8, 24, 38, 1),
-             inset 19px -19px 38px rgb(30, 95, 148, 1),
-             -19px 19px 38px rgb(8, 24, 37, 0),
-              19px -19px 38px rgb(30, 94, 147, 0);
-     font-weight: bold;
- }
- 
- nav a:active{
-     color: rgb(190, 10, 100);
- }
- nav a:visited{
-     color: var(--middle);
-     text-decoration: none;
- }
+ nav a:visited {
+    color: var(--middle);
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    box-shadow: inset -19px 19px 38px rgb(8, 24, 38, 1),
+      inset 19px -19px 38px rgb(30, 95, 148, 1), -19px 19px 38px rgb(8, 24, 37, 0),
+      19px -19px 38px rgb(30, 94, 147, 0);
+    font-weight: bold;
+  }
+  
+  nav a:active {
+    color: rgb(207, 39, 123);
+  }
 
  main{
     width: 100%;
@@ -88,13 +95,13 @@ nav{
    align-items: center;
    justify-content: center;
     padding-left: 20px;
-   /* background-color: var(--middle); */
+   background-color: var(--middle);
 
 }
 img {
     width: 250px;
     height: 250px;
-    border: #A2CDCD 5px solid;
+    border: var(--dark) 5px solid;
     
 }
 

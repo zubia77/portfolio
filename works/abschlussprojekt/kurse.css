@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(15, 32, 65);
+}
+
+ion-icon {
+    font-size: 50px;
+    vertical-align: middle;
+    margin-right: 50px;
+    margin-left: 300px;
+}
+
+h1 {
+    background-color: rgb(120, 230, 230);
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 140px;
+    text-align: left;
+    text-indent: 10px;
+    margin-top: 0%;
+    font-family: 'Grand Hotel', cursive;
+    color: rgb(15, 32, 65);
+    font-size: 50px;
+    font-style: normal;
+}  
+
+nav {  
+    background-color: rgb(120, 230, 230);
+    text-align:center;
+    margin-top: 40px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(15, 32, 65);
+    font-family: 'Grand Hotel', cursive;
+    padding: 5px 20px;
+}
+
+nav a:hover {
+   font-weight: bolder;
+}
+
+h2 {letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 60px;
+    padding-right: 250px;
+    padding-left: 50px; 
+    font-family: 'Indie Flower', cursive;
+    color: rgb(129, 230, 230);
+    font-size: 30px;
+    font-style:oblique;
+}
+
+.anmeldung {display: inline-flex;
+    margin-left: 60px;margin-top: 100px;
+    margin-right: 60px;
+}
+
+form {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 30px;
+    padding-right: 90px;
+    padding-left: 100px; 
+    font-family: 'Indie Flower', cursive;
+    color: rgb(120, 230, 230);
+    font-size: 25px;
+    font-style:oblique;
+}
+
+.adresse {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 30px;
+    padding-right: 90px;
+    padding-left: 100px; 
+    font-family: 'Indie Flower', cursive;
+    color: rgb(120, 230, 230);
+    font-size: 25px;
+    font-style:oblique;
+}
+
+footer {
+    background-color: rgb(120, 230, 230);
+    background-size: 300px;
+    text-align:left;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: rgb(15, 32, 65);
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+
+
+
+

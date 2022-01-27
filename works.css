@@ -31,6 +31,13 @@ header{
     position: relative;
 }
 
+.logo {
+    width: 16rem;
+    margin-top: 20px;
+    margin-left: 150px;
+    opacity: 1;
+}
+
     nav{ 
     position: absolute;
     right: 50px;
@@ -40,15 +47,15 @@ header{
     justify-content: flex-end;
  }
  
-        nav ul{
+nav ul{
      display: flex;
      justify-content: space-between;
      width: 100%;
      list-style: none;
      font-size: 3rem;
- }
+}
  
-        nav a{
+nav a{
      border-radius: 20px;
      background: #133B5C;
      box-shadow:
@@ -61,24 +68,23 @@ header{
      text-decoration: none;
      font-family: Happy Monkey;
      color: var(--middle);
- }
+}
  
-        nav a:hover{
-     box-shadow:
-             inset -19px 19px 38px rgb(8, 24, 38, 1),
-             inset 19px -19px 38px rgb(30, 95, 148, 1),
-             -19px 19px 38px rgb(8, 24, 37, 0),
-              19px -19px 38px rgb(30, 94, 147, 0);
-     font-weight: bold;
- }
- 
-        nav a:active{
-     color: rgb(190, 10, 100);
- }
-        nav a:visited{
-     color: var(--middle);
-     text-decoration: none;
- } 
+nav a:visited {
+    color: var(--middle);
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    box-shadow: inset -19px 19px 38px rgb(8, 24, 38, 1),
+      inset 19px -19px 38px rgb(30, 95, 148, 1), -19px 19px 38px rgb(8, 24, 37, 0),
+      19px -19px 38px rgb(30, 94, 147, 0);
+    font-weight: bold;
+  }
+  
+  nav a:active {
+    color: rgb(207, 39, 123);
+  }
 
 main{
     display: grid;
@@ -99,10 +105,15 @@ main{
     ". one six . two two ."
     ". . five . two two ."
     ". four seven three three . ."
-    ". . . three three eight ."
+    ". nine . three three eight ."
     ". . . . . . . ";
     grid-template-columns: 5vh 1fr 1fr 1fr 1fr 1fr 5vh;
     grid-template-rows: 5vw 1fr 1fr 1fr 1fr 5vw;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
 }
 
 .one{
@@ -111,9 +122,16 @@ main{
 .one:hover{
     border: var(--dark) 4px solid;
 }
+
+.eins {
+    object-position: left;
+}
 .two{
     grid-area: two;
-    
+}
+
+.zwei{
+    object-position: left;
 }
 .two:hover{
     border: var(--dark) 4px solid;
@@ -153,6 +171,18 @@ main{
 }
 .eight:hover{
     border: var(--dark) 4px solid;
+}
+
+.nine{
+    grid-area: nine;
+    
+}
+
+.nine:hover{
+    border: var(--dark) 4px solid;
+}
+.neun{
+    object-position: left;
 }
 
 footer{
@@ -327,82 +357,24 @@ footer{
 
 /* soceialmedia settings end */
 
-
-/* contact-me settings start */
-/* .contact {
+.top{
     display: flex;
+    text-decoration: none;
     justify-content: center;
     align-items: flex-start;
     font-family: Happy Monkey;
-    margin-left: -160px;
+    color: var(--middle);
+    position: absolute;
+    left: 750px;
 }
-.contact:hover{
-    border: var(--middle) 3px solid;
-    border-radius: 15px;
-    box-shadow: 0px 0px 12px var(--middle);
-    padding: 10px;
-    
-}
-.contact:active{
-    box-shadow: -15px -15px 48px var(--middle),
-                15px 15px 48px var(--middle);
-}
-.cm{
-    display: flex;
+.top:visited{
+    color: var(--middle);
     text-decoration: none;
-    margin-left: -170px;
 }
-h4{
-    animation: move 1s  linear infinite;
-    animation-fill-mode: forwards;
+.top:hover{
+    color: var(--middle);
+    text-decoration: none;
 }
-.c{
-    animation-delay: .1s;
-}
-.o{
-    animation-delay: 0.2s;
-}
-.m{
-    animation-delay: .3s;
-}
-.i{
-    animation-delay: .4s;
-}
-.n{
-    animation-delay: .5s;
-}
-.g{
-    animation-delay: .6s;
-    margin-right: 2rem;
-}
-.s{
-    animation-delay: .7s;
-    
-}
-.oa{
-    animation-delay: .8s;
-}
-.ob{
-    animation-delay: .9s;
-}
-.na{
-    animation-delay: 1s;
-}
-@keyframes move {
-    from {
-        color: #a2cdcd11;
-        text-shadow: none;
-    }
-    90%{
-        color: var(--middle);
-        text-shadow: none;
-    }
-    to{
-        color: var(--middle);
-        text-shadow: 2px 2px 10px var(--middle), 2px 2px 50px
-        #ff6c00;
-    }
-} */
    
 /* media settings start */
 
