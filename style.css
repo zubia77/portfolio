@@ -40,6 +40,9 @@ header {
       margin-left: 50px;
       z-index: 9;
     }
+    .logo {
+      display: none;
+    }
 
     .respdesign {
       display: none;
