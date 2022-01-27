@@ -542,7 +542,6 @@ h4 {
   width: 500px;
   position: absolute;
   top: -800px;
-  right: 0;
   border: 5px solid black;
   border-radius: 3%;
   background: rgba(138, 136, 136, 0.25);
@@ -553,16 +552,13 @@ h4 {
   visibility: hidden;
   z-index: 999;
 }
-
-
-/* .contact:target .contactform {
-  visibility: visible;
-} */
-
-.contact:active .contactform {
+.contact:hover .contactform {
   visibility: visible;
 }
 
+.contactform:hover {
+  visibility: visible;
+}
 
 form {
   display: flex;
