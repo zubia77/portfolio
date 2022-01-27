@@ -54,7 +54,6 @@ header {
       width: 70%;
       display: flex;
       justify-content: flex-end;
-      border: solid 2px yellow;
     }
 
       nav ul {

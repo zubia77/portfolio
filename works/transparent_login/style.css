@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+
+}
+body{
+    background: url("images/mmm.jpg") 100%/cover no-repeat;
+    background-attachment: fixed;
+    font-size: 1.6rem;
+    background-color: rgb(194, 187, 187);
+    background-blend-mode: multiply;
+ 
+   
+   
+}
+h1{
+    font-family: Samarkan, Arial, Helvetica, sans-serif;
+    font-size: 10rem;
+    color: whitesmoke;
+    text-align: center;
+    border-bottom: 5px whitesmoke solid;
+
+}
+main{
+    border: transparent 1px solid;
+    display: inline-block;
+    padding: 18px;
+    position: absolute;
+    top:30% ;
+    left: 35%;
+}
+
+div {
+    width: 40rem;
+    background-color: transparent;
+    border: transparent;
+    box-shadow: transparent;
+    font-family: Grand Hotel;
+    font-size: 3rem;
+    color: whitesmoke;
+    border-bottom: 2px whitesmoke solid;
+}
+
+fieldset{
+    border: hidden;
+}
+  
+.fas{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+input{
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    font-family: Grand Hotel;
+    font-size: 3rem;
+    outline: 0;
+   border-width:0 0 0px;
+   border-color: transparent;
+}
+
+::placeholder{
+    color: whitesmoke;
+    font-family: Grand Hotel;
+    font-size: 3rem;
+}
+
+button{
+    width: 100%;
+    background: none;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 3rem;
+    margin: 3rem 0;
+    border-radius: 10px;
+    font-family: Grand Hotel;
+}
+
